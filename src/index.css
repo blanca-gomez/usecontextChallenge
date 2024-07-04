@@ -35,10 +35,23 @@ h1 {
   line-height: 1.1;
 }
 
-nav {
+nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 10px; 
+  background-color: #333; 
+ 
 }
+
+nav ul {
+  list-style: none; 
+  display: flex; 
+  justify-content: center;
+  gap: 20px; 
+  font-size: 2em;
+}
+
+
 
 button {
   border-radius: 8px;
@@ -79,12 +92,12 @@ button:focus-visible {
   width: 100vw;
   height: 100vh;
 }
-.light {
+button.App.light {
   background-color: white;
   color: black;
 }
 
-.dark {
+button.App.dark {
   background-color: #242424;
   color: #ccc;
 }
